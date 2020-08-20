@@ -1,0 +1,33 @@
+Component: ARM Compiler 6.14 Tool: armlink [5db06800]
+
+==============================================================================
+
+Section Cross References
+
+    keypad.o(.ARM.exidx.text.delayUs) refers to keypad.o(.text.delayUs) for [Anonymous Symbol]
+    keypad.o(.ARM.exidx.text.keypad_row_init) refers to keypad.o(.text.keypad_row_init) for [Anonymous Symbol]
+    keypad.o(.ARM.exidx.text.keypad_coulnm_init) refers to keypad.o(.text.keypad_coulnm_init) for [Anonymous Symbol]
+    keypad.o(.text.keypad_getkey) refers to keypad.o(.rodata.cst16) for keypad_getkey.keymap
+    keypad.o(.ARM.exidx.text.keypad_getkey) refers to keypad.o(.text.keypad_getkey) for [Anonymous Symbol]
+    keypad.o(.ARM.exidx.text.key) refers to keypad.o(.text.key) for [Anonymous Symbol]
+    lcd.o(.ARM.exidx.text.delayMs) refers to lcd.o(.text.delayMs) for [Anonymous Symbol]
+    lcd.o(.ARM.exidx.text.delayUs) refers to lcd.o(.text.delayUs) for [Anonymous Symbol]
+    lcd.o(.ARM.exidx.text.input_init) refers to lcd.o(.text.input_init) for [Anonymous Symbol]
+    lcd.o(.ARM.exidx.text.lcd_enable) refers to lcd.o(.text.lcd_enable) for [Anonymous Symbol]
+    lcd.o(.text.lcd_command) refers to lcd.o(.text.lcd_enable) for lcd_enable
+    lcd.o(.ARM.exidx.text.lcd_command) refers to lcd.o(.text.lcd_command) for [Anonymous Symbol]
+    lcd.o(.text.lcd_data) refers to lcd.o(.text.lcd_enable) for lcd_enable
+    lcd.o(.ARM.exidx.text.lcd_data) refers to lcd.o(.text.lcd_data) for [Anonymous Symbol]
+    lcd.o(.text.lcd_write) refers to lcd.o(.text.lcd_enable) for lcd_enable
+    lcd.o(.ARM.exidx.text.lcd_write) refers to lcd.o(.text.lcd_write) for [Anonymous Symbol]
+    lcd.o(.text.lcd_init) refers to lcd.o(.text.lcd_command) for lcd_command
+    lcd.o(.text.lcd_init) refers to lcd.o(.text.lcd_enable) for lcd_enable
+    lcd.o(.ARM.exidx.text.lcd_init) refers to lcd.o(.text.lcd_init) for [Anonymous Symbol]
+    lcd.o(.text.lcd_write_string_) refers to lcd.o(.text.lcd_data) for lcd_data
+    lcd.o(.ARM.exidx.text.lcd_write_string_) refers to lcd.o(.text.lcd_write_string_) for [Anonymous Symbol]
+    lcd.o(.text.Lcd_SetCursor) refers to lcd.o(.text.lcd_command) for lcd_command
+    lcd.o(.ARM.exidx.text.Lcd_SetCursor) refers to lcd.o(.text.Lcd_SetCursor) for [Anonymous Symbol]
+    lcd.o(.text.lcd_out) refers to lcd.o(.text.Lcd_SetCursor) for Lcd_SetCursor
+    lcd.o(.text.lcd_out) refers to lcd.o(.text.lcd_write_string_) for lcd_write_string_
+    lcd.o(.ARM.exidx.text.lcd_out) refers to lcd.o(.text.lcd_out) for [Anonymous Symbol]
+
